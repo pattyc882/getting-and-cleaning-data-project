@@ -24,6 +24,8 @@ Mean and std define whether the variable is a mean or standard deviation.
 
 X, Y, Z define the axis of the measurement.
 
+All values are means of original data set grouped by subject ID and activity.
+
 
 timebodyaccelerometer-mean()-X
 timebodyaccelerometer-mean()-Y                

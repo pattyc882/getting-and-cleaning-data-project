@@ -32,4 +32,4 @@ and columns reporting standard deviation, grep was used with subject|activity|me
 used as the pattern and a new dataframe was created from this step.  Another new 
 dataframe was created reporting means for each subject/activity.
 
-Last, the dataframe containing only the means of the selected variables is exported to a csv file.
+Last, the dataframe containing only the means of the selected variables is exported to a text file.

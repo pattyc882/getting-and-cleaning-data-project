@@ -81,4 +81,4 @@ summarizeddata<-finaldataset %>%
   summarize(across("timebodyaccelerometer-mean()-X":"frequencybodygyroscopejerkmag-meanfreq()", mean))
 
 #export dataframe to summarizedprojectdat.csv in working directory
-write.csv(summarizeddata,"./data/summarizedprojectdata.csv", row.names = FALSE)
+write.table(summarizeddata,"./data/summarizedprojectdata.txt", row.names = FALSE)
